@@ -17,7 +17,7 @@ class Heroku::Command::Nano < Heroku::Command::Run
   def nano_cmd
     <<-CMD
 mkdir nano
-curl http://ehryk.com/Share/heroku-nano/nano.tar.gz --location --silent | tar xz -C nano
+curl https://github.com/Ehryk/heroku-nano/raw/master/heroku-nano-2.5.1/nano.tar.gz --location --silent | tar xz -C nano
 export PATH=$PATH:/app/nano/bin
 bash
     CMD
