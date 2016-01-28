@@ -20,7 +20,7 @@ heroku nano
 $ heroku nano
 Running `mkdir nano
 curl http://ehryk.com/Share/heroku-nano/nano.tar.gz --location --silent | tar xz -C nano
-export PATH=$PATH:/app/nano/bin
+export PATH=$PATH:/app/nano
 bash` attached to terminal... up, run.2135
 ~ $ cat README
 This is your new Play application
